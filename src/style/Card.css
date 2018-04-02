@@ -1,0 +1,31 @@
+.Card {
+    border: 1px dashed black;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 10px;
+    height: 150px;
+    width: 100px;
+    margin: 1%;
+    z-index: 5;
+  }
+
+  .Card.fill-red {
+    background-color: #D0021B;
+  }
+  
+  .Card.fill-green{
+    background-color: green;
+  }
+  
+  .Card.fill-yellow {
+    background-color: yellow;
+  }
+  
+  .Card.fill-blue{
+    background-color: #2F619B;
+  }
+
+  .Card.fill-black{
+    background-color: black;
+    color: white;
+  }
